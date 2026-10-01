@@ -2,12 +2,11 @@
   <img src="https://aguitech.com/images/logo.png" alt="AGUITECH" width="120">
 </p>
 
-<h1 align="center">🖥️ pantallas-update-bncpl</h1>
+<h1 align="center">🎬 pantallas-update-bncpl</h1>
 
 <p align="center">
-  <strong>Iteraciones de UI para BanCoppel / Atore Coppel.</strong><br>
-  Repositorio de evolución visual del producto — cada pantalla tiene varias
-  versiones para comparar el antes/después y entender qué cambió.
+  <strong>Cine Financiero · BanCoppel / Atore Coppel.</strong><br>
+  Réplicas HTML navegables de las 56 pantallas del recorrido del visitante por estación.
 </p>
 
 <p align="center">
@@ -23,25 +22,32 @@
 
 ## ¿Qué es
 
-`pantallas-update-bncpl` es el **historial vivo de las pantallas** del
-producto **BanCoppel / Atore Coppel**. Aquí aterrizan las iteraciones
-de UI: cada vez que rediseñamos un flujo, una vista, un componente o
-un mensaje en pantalla, agregamos una nueva versión con su comparativo.
+`pantallas-update-bncpl` contiene las **réplicas HTML navegables de las 56
+pantallas** del recorrido del visitante en el evento **Cine Financiero**
+(BanCoppel / Afore Coppel). Cada archivo HTML replica una pantalla del
+PDF original "Flujo interfaces / UX Cine Financiero" del 2026-10-01.
 
-### ¿Por qué un repo aparte y no solo `foro-html`?
+### Estaciones incluidas
 
-Porque **los flujos se versionan**. A veces la versión 3 de "Posicionamiento"
-era mejor que la 4 y hay que poder volver. Otras veces, el cliente dice
-*"¿cómo se veía esto antes?"* y necesitamos enseñarle la v1, v3 y v5 en
-paralelo. Este repo es ese álbum de fotos.
+| Estación | # pantallas | Rango |
+|----------|-------------|-------|
+| **0 · Prerregistro** | 11 | 0.01 — 0.11 |
+| **1 · Casting** | 7 | 1.01 — 1.07 |
+| **3 · Foro (preparación)** | 9 | 3.01 — 3.09 |
+| **3 · Foro (grabación)** | 9 | 3.10 — 3.20 |
+| **4 · Decisiones** | 13 | 4.01 — 4.13 |
+| **6 · Correo / Contenidos** | 3 | 6.01 — 6.03 |
+| **7 · Encuesta** | 2 | 7.01 — 7.02 |
+| **TOTAL** | **56** | — |
 
 ### ¿Qué NO es este repo?
 
-- ❌ No es la app productiva (eso vive en su repo propio).
-- ❌ No es un sistema de diseño (eso está documentado en otro lado).
+- ❌ No es la app productiva.
+- ❌ No es un sistema de diseño.
 - ❌ No es el código del backend ni del front funcional.
 
-**Es un repositorio de visualización y comparativa de UI.**
+**Es una galería navegable que permite previsualizar todas las pantallas
+sin abrir el PDF.**
 
 ## Filosofía
 
